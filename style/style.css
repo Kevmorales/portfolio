@@ -59,7 +59,15 @@ box-sizing: border-box;
 
 }
 
-.btn-first {
+.nav-button {
+
+    list-style: none;
+    margin-right: 2rem;
+    
+
+}
+
+#btn-first {
 
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
@@ -70,13 +78,18 @@ box-sizing: border-box;
     padding: 0.5rem 1rem;
     cursor: pointer;
     transition: all 200ms ease-in;
+    text-decoration: none;
+    color: black;
+    
 }
 
-.btn-first:hover {
+#btn-first:hover {
 
     background: #22c58f;
 
 }
+
+
 
 
 /* Content */
